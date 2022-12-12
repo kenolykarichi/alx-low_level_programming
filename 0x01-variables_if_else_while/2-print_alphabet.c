@@ -1,26 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc function main goes there */
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - prints alpha in lowercase
+ * Return: Always 0
  */
-
 int main(void)
 {
-	int n;
+	char lc;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		printf("%d is negative\n", n);
+	for (lc = 'a'; lc <= 'z'; lc++)
+	{
+		putchar(lc);
+	}
+	putchar('\n');
 	return (0);
 }
