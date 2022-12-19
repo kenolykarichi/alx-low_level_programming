@@ -3,9 +3,9 @@
 /**
  * print_most_number - prints numbers between 0 to 9
  * (neither 2 nor 4).
- * Return: no return.
+ * Return: no return
  */
-print_most_numbers(void)
+void print_most_number(void)
 {
 	int ch;
 
