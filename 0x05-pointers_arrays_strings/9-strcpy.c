@@ -6,16 +6,16 @@
  * @src: source
  * Return: string
  */
-char *_strcpy(char *dest, char *src)
+void *_strcpy(char *dest, char *src)
 {
-	char *start = dest;
+	int len = 0;
 
-	while (*src != '\0')
+	while (*(src + len) != '\0')
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		*(dest + len) = *(src + len);
+		len++;
 	}
-	*dest = '\0';
-	return (start);
+
+	*(dest + len) = '\0';
+return (dest);
 }
