@@ -9,7 +9,6 @@
  *
  * Return: A pointer to the destination buffer @dest.
  */
-
 void *_memcpy(void *dest, const void *src, size_t n)
 {
 	unsigned int index;
