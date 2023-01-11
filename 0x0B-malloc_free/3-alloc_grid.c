@@ -1,4 +1,4 @@
-#include <strlib>
+#include <strlib.h>
 
 /**
  * **alloc_grid - creates  a two dimensional array of int
