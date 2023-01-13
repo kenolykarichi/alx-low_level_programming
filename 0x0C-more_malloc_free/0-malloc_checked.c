@@ -1,14 +1,16 @@
-#include "main.h"
+#include <stdlib.h>
 /**
- * _isupper - uppercase letters
- * @c: char to check
+ * malloc_checked - allocates memory using malloc.
+ * @b: size of memory to be allocated.
  *
- * Return: 0 or 1
+ * Return: pointr to allocated memory
  */
-int _isupper(int c)
+void *malloc_checked(unsigned int b)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+	void *p = malloc(b);
+
+	if (p == NULL)
+		exit(98);
+
+	return (p);
 }
