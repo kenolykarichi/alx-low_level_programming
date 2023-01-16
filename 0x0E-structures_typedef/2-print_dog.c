@@ -6,7 +6,7 @@
  * print_dog - prints a struct dog.
  * @d: pointer to struct.
  *
- * Return: void
+ * Return: void.
  */
 void print_dog(struct dog *d)
 {
@@ -19,9 +19,9 @@ void print_dog(struct dog *d)
 		if (d->name == NULL)
 			printf("Name: (nil)\n");
 		else
-			printf("Name: %\n", d->name);
+			printf("Name: %s\n", d->name);
 
-		printf("Age: %f\n", d->age);
+		print("Age: %f\n", d->age);
 
 		if (d->owner == NULL)
 			printf("owner: (nil)\n");
