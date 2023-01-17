@@ -6,6 +6,6 @@
 
 int main(void)
 {
-	print("%s\n", __FILE__);
+	print("%s\n", _FILE_);
 	return (0);
 }
