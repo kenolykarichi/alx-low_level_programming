@@ -5,7 +5,7 @@
  * (neither 2 nor 4).
  * Return: no return
  */
-void print_most_number(void)
+int print_most_number(void)
 {
 	int ch;
 
