@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0. What's my name
 Write a function that prints a name.
 Prototype: void print_name(char *name, void (*f)(char *));
@@ -80,3 +81,5 @@ You have to use atoi to convert the argument to an int
 If the number of argument is not the correct one, print Error, followed by a new line, and exit with the status 1
 If the number of bytes is negative, print Error, followed by a new line, and exit with the status 2
 You do not have to compile with any flags
+=======
+>>>>>>> 0c07bcad988d34ee3bfb37e8e55661d8be7411db

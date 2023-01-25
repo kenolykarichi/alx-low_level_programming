@@ -62,4 +62,8 @@
 	int op_mod(int a, int b)
 	{
 		return (a % b);
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> 0c07bcad988d34ee3bfb37e8e55661d8be7411db
