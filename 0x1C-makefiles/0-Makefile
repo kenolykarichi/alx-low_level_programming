@@ -1,0 +1,2 @@
+all: main.c holber.c
+	gcc main.c hober.c -o holber

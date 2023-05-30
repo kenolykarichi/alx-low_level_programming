@@ -1,0 +1,4 @@
+CC = gcc
+SCR = main.c holber.c
+all: $(SCR)
+	$(CC) $(SCR) -o holber
